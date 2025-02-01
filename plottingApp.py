@@ -1,3 +1,10 @@
+pip install numpy
+pip install pandas
+pip install scipy
+pip install plotly
+pip install streamlit
+
+
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
