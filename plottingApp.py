@@ -72,7 +72,7 @@ if len(compounds) == len(series_1) == len(series_2):
         y=series_2, 
         mode='markers+text', 
         name='CMPD',
-        marker=dict(color='black', size=10),
+        marker=dict(color='red', size=10),
         text=[f'{compounds[i]}' for i in range(len(compounds))],
         textposition='top center'
     )
